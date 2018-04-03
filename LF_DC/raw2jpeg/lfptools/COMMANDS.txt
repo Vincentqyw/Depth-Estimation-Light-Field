@@ -1,0 +1,11 @@
+COMMANDS
+
+lfpsplitter IMG_0001.lfp
+raw2tiff -w 3280 -l 3280 -d short IMG_0001_imageRef0.raw output.tiff
+
+MUST INSTALL tiff-4.0.1
+
+path1 = 
+/usr/bin:/bin:/usr/sbin:/sbin:####/tiff-4.0.1/tools/
+
+setenv('PATH', path1)

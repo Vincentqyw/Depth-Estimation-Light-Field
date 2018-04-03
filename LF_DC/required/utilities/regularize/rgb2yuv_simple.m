@@ -1,0 +1,6 @@
+function yuv = rgb2yuv(rgb)
+    rgb = double(rgb);
+    yuv = cat(3, 0.25*(rgb(:,:,1,:) + 2*rgb(:,:,2,:) + rgb(:,:,3,:)), ...
+            rgb(:,:,3,:) - rgb(:,:,2,:), ...
+            rgb(:,:,1,:) - rgb(:,:,2,:));
+end

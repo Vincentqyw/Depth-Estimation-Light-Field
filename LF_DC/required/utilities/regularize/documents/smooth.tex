@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{natbib}
+\usepackage{ifthen}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+
+\setlength\topmargin{0in}
+\setlength\headheight{0in}
+\setlength\headsep{0in}
+\setlength\textheight{9in}
+\setlength\textwidth{6.5in}
+\setlength\oddsidemargin{0in}
+\setlength\evensidemargin{0in}
+\setlength\parindent{0.25in}
+\setlength\parskip{0.25in}
+
+\newcommand{\supi}[1]{{#1}^{ {\left( i \right)} }}
+\newcommand{\round}[1]{ \operatorname{round}\left( #1 \right) }
+
+\title{Get Smooth}
+
+\begin{document}
+	
+\maketitle
+
+%\begin{eqnarray}
+%\displaystyle \underset{Z}{\operatorname{minimize}} &\quad&  \sum_{\mathit{source}} \lambda_{\mathit{source}} \sum_i W_i | Z_i - \hat{Z}_i^\mathit{source} | \\
+% &\quad&  + \lambda_{\mathit{flat}} ( | Z * [1, -1] | + | Z * [1; -1] | )  \\
+% &\quad& + \lambda_{\mathit{smooth}} ( | Z * [-1, 2, -1] | + | Z * [-1; 2; -1] | )
+%\end{eqnarray}
+
+
+\begin{eqnarray}
+\displaystyle \underset{Z}{\operatorname{minimize}} &\quad&  \sum_{\mathit{source}} \lambda_{\mathit{source}} \sum_i W_i^\mathit{source} | Z_i - \hat{Z}_i^\mathit{source} | \\
+ &\quad&  + \lambda_{\mathit{flat}} \sum_i \left( \left| \frac{\partial Z}{\partial x }  \right|_i + \left| \frac{\partial Z}{\partial y }  \right|_i  \right)  \\
+ &\quad& + \lambda_{\mathit{smooth}} \sum_i \left| \Delta Z \right|_i 
+\end{eqnarray}
+
+Where the $\lambda$ hyperparamaters control the strengths of each term, $Z_i$ is the recovered shape at pixel $i$, $Z^\mathit{source}$ is the input depth map from some source, and $W^\mathit{source}$ is the per-pixel confidence associated with each source.
+
+The code contains a hyperparameter "ROBUSTIFY-SMOOTHNESS". If 1, then the equation is as above. If 0, then the smoothness priors are on squared-error, not absolute error: 
+
+\begin{eqnarray}
+\displaystyle \underset{Z}{\operatorname{minimize}} &\quad&  \sum_{\mathit{source}} \lambda_{\mathit{source}} \sum_i W_i^\mathit{source} | Z_i - \hat{Z}_i^\mathit{source} | \\
+ &\quad&  + \lambda_{\mathit{flat}} \sum_i \left( \left( \frac{\partial Z}{\partial x }  \right)^2_i + \left( \frac{\partial Z}{\partial y }  \right)^2_i  \right)  \\
+ &\quad& + \lambda_{\mathit{smooth}} \sum_i \left( \Delta Z \right)^2_i 
+\end{eqnarray}
+
+
+{\small
+\bibliographystyle{plain}
+\bibliography{contour}
+}
+
+\end{document}
+
