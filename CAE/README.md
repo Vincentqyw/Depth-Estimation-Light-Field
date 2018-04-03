@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Source code used in
 Robust Light Field Depth Estimation for Noisy Scene with Occlusion, CVPR 2016
 Robust Light Field Depth Estimation using Occlusion-Noise Aware Data Costs, PAMI 2017
