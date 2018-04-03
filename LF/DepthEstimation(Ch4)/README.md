@@ -1,13 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Source code used in
-Accurate Depth Map Estimation from a Lenslet Light Field Camera, CVPR 2015
-
+**Accurate Depth Map Estimation from a Lenslet Light Field Camera, CVPR 2015**
 Code written by Hae-Gon Jeon and Jaesik Park.
 ACADEMIC USAGE ONLY
-
 Bug report: hgjeon@rcv.kaist.ac.kr
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 - Note.
 This package also includes part of following softwares
 	gco-v3.0: Multi-label optimization (http://vision.csd.uwo.ca/code/)
