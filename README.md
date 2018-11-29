@@ -1,4 +1,4 @@
-## This is a repository which collects some depth estimation algorithms from light field. Feel free to add more!
+## This is a repository which collects some depth estimation algorithms using light field. Feel free to add more!
 
 ### LF_DC
 Source code used in the following paper.
