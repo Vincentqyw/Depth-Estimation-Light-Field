@@ -2,11 +2,11 @@
 
 ### LF_DC
 Source code used in the following paper.
-Michael W. Tao, Sunil Hadap, Jitendra Malik, and Ravi Ramamoorthi. [Depth from Combining Defocus and Correspondence Using Light-Field Cameras](http://graphics.berkeley.edu/papers/Tao-DFC-2013-12/). In Proceedings of International Conference on Computer Vision (ICCV), 2013.
+Michael W. Tao, Sunil Hadap, Jitendra Malik, and Ravi Ramamoorthi. **[Depth from Combining Defocus and Correspondence Using Light-Field Cameras](http://graphics.berkeley.edu/papers/Tao-DFC-2013-12/)**. In Proceedings of International Conference on Computer Vision (ICCV), 2013.
 
 ### LF
 
-Source code used in **[Accurate Depth Map Estimation from a Lenslet Light Field Camera, CVPR 2015](https://drive.google.com/file/d/0B2553ggh3QTcS01zU0RjOG5FTjQ/view)**
+Source code used in **[Accurate Depth Map Estimation from a Lenslet Light Field Camera](https://drive.google.com/file/d/0B2553ggh3QTcS01zU0RjOG5FTjQ/view)**, CVPR 2015
 
 ### CAE
 
@@ -21,4 +21,4 @@ Homepage: **[Robust Light Field Depth Estimation using Occlusion-Noise Aware Dat
 SPO refers to **Spinning Parallelogram Operator**.
 PAPER TO CITE:
 Shuo Zhang, Hao Sheng, Chao Li, Jun Zhang and Zhang Xiong.
-**Robust depth estimation for light field via spinning parallelogram operator**, Computer Vision and Image Understanding, 2016, 145(C), 148-159
+**[Robust depth estimation for light field via spinning parallelogram operator](https://github.com/shuozh/Spinning-Parallelogram-Operator)**, Computer Vision and Image Understanding, 2016, 145(C), 148-159
