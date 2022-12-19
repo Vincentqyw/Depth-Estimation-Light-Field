@@ -1,6 +1,13 @@
-## This is a repository which collects some depth estimation algorithms using light field. Feel free to add more!
+<p align="center">
+  <h1 align="center"><br><ins>Depth Estimation Light Field</ins><br>A collection of light field depth estimation algorithms</h1>
+</p>
+
+## 
+
+This is a repository hosts some depth estimation algorithms using light field. Feel free to add more!
 
 ### LF_DC
+
 Source code used in the following paper.
 Michael W. Tao, Sunil Hadap, Jitendra Malik, and Ravi Ramamoorthi. **[Depth from Combining Defocus and Correspondence Using Light-Field Cameras](http://graphics.berkeley.edu/papers/Tao-DFC-2013-12/)**. In Proceedings of International Conference on Computer Vision (ICCV), 2013.
 
