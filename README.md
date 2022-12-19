@@ -6,16 +6,22 @@
 
 This is a repository hosts some depth estimation algorithms using light field. Feel free to add more!
 
-### LF_DC
+## Usage
+
+``` bash
+git clone --recurse-submodules https://github.com/Vincentqyw/Depth-Estimation-Light-Field.git
+```
+
+## LF_DC
 
 Source code used in the following paper.
 Michael W. Tao, Sunil Hadap, Jitendra Malik, and Ravi Ramamoorthi. **[Depth from Combining Defocus and Correspondence Using Light-Field Cameras](http://graphics.berkeley.edu/papers/Tao-DFC-2013-12/)**. In Proceedings of International Conference on Computer Vision (ICCV), 2013.
 
-### LF
+## LF
 
 Source code used in **[Accurate Depth Map Estimation from a Lenslet Light Field Camera](https://drive.google.com/file/d/0B2553ggh3QTcS01zU0RjOG5FTjQ/view)**, CVPR 2015
 
-### CAE
+## CAE
 
 CAE refers to **Constrained Angular Entropy Cost**. This is the source code used in
 1. **Robust Light Field Depth Estimation for Noisy Scene with Occlusion, CVPR 2016**
@@ -23,7 +29,7 @@ CAE refers to **Constrained Angular Entropy Cost**. This is the source code used
 
 Homepage: **[Robust Light Field Depth Estimation using Occlusion-Noise Aware Data Costs](http://image.inha.ac.kr/lfdepth/)**
 
-### SPO
+## SPO
 
 SPO refers to **Spinning Parallelogram Operator**.
 PAPER TO CITE:

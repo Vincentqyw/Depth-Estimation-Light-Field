@@ -19,3 +19,9 @@
 [submodule "thirdparty/EPINET"]
 	path = thirdparty/EPINET
 	url = https://github.com/chshin10/epinet.git
+[submodule "thirdparty/DistgDisp"]
+	path = thirdparty/DistgDisp
+	url = https://github.com/YingqianWang/DistgDisp.git
+[submodule "thirdparty/LFDEN"]
+	path = thirdparty/LFDEN
+	url = https://github.com/JiayongO-O/LFDEN.git
