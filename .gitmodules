@@ -1,0 +1,21 @@
+[submodule "thirdparty/OACC-Net"]
+	path = thirdparty/OACC-Net
+	url = https://github.com/YingqianWang/OACC-Net.git
+[submodule "thirdparty/LFV"]
+	path = thirdparty/LFV
+	url = https://github.com/mediaeng-lfv/LFV_Disparity_Estimation.git
+[submodule "thirdparty/SPO"]
+	path = thirdparty/SPO
+	url = https://github.com/shuozh/Spinning-Parallelogram-Operator.git
+[submodule "thirdparty/MANet"]
+	path = thirdparty/MANet
+	url = https://github.com/YanWQ/MANet.git
+[submodule "thirdparty/EPI_ORM"]
+	path = thirdparty/EPI_ORM
+	url = https://github.com/lkyahpu/EPI_ORM.git
+[submodule "thirdparty/EPI-SHIFT"]
+	path = thirdparty/EPI-SHIFT
+	url = https://github.com/titus-leistner/epi-shift.git
+[submodule "thirdparty/EPINET"]
+	path = thirdparty/EPINET
+	url = https://github.com/chshin10/epinet.git
